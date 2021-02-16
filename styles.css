@@ -1,0 +1,199 @@
+/* John */
+
+.myButton {
+    background: #C38D9E;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 14px;
+    border: solid #C38D9E 1px;
+    text-decoration: none;  
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px;
+    width: 50%;
+ }
+ 
+ .myButton:hover {
+    border: solid #e8a87c 1px;
+    background: #e8a87c;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 14px;
+    border-radius: 8px;
+    text-decoration: none;
+ }
+
+.button-centraliser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+h1{
+    font-family: Helvetica;
+    text-align: center;
+    color:white;
+}
+
+body{
+    background-color:#41B3A3;
+    padding: 100px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.footerContainer{
+    text-align: center; 
+    padding-top: 10px;
+}
+
+.footerText{
+    font-family: Helvetica;
+    font-size: 10px;
+    color:white;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #9bc7d4;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+.active, .dot:hover {
+    background-color: #e8a87c;
+}
+
+.dot-container {
+    text-align: center;
+    padding: 30px 20px 20px 20px;
+   height: 10%;
+}
+
+.myQuestions{
+    display:none;
+    text-align: center;
+    height: 90%;
+}
+.questionContainer{
+    display:block;
+}
+.prev, .next {
+    cursor: pointer;
+    position: fixed;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  .next {
+    position: fixed;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev{
+      position: fixed;
+      left: 0;
+      display:none;
+  }
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+
+.starter{
+    display: block;
+}
+/* search page */
+.searchInput{
+        padding: 15px;
+        border-radius: 30px;
+        border-color: #FFFFFF;
+        border-style: solid;
+        outline:none
+}
+
+.searchHeader{
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-family: Helvetica;
+    padding: 20px;
+}
+/* signup */
+.signupInput{
+    padding: 5px;
+    border-radius: 30px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    outline:none;
+    margin: 5px 0px 5px 60px;
+    width: 40%;
+}
+
+.signupHeader{
+    text-align: left;
+    color: white;
+    font-size: 32px;
+    font-family: Helvetica;
+}
+
+
+.signupButton {
+    background: #C38D9E;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 100;
+    margin: 5px 0px 5px 60px;
+    border: solid #C38D9E 1px;
+    text-decoration: none;  
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+ }
+ 
+ .signupButton:hover {
+    border: solid #e8a87c 1px;
+    background: #e8a87c;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 14px;
+    border-radius: 8px;
+    text-decoration: none;
+ }
+/* landing page */
+.background-layer{
+  width: 70%;
+  height: 100%;
+  background-color: #FFFFFF;
+
+
+}
+
+.body-layer{
+    background-color: #444444;
+    padding: 0px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

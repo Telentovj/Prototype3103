@@ -14,25 +14,25 @@ body {
     color: white;
     font-family: Helvetica;
 }
-
 .footerContainer {
-    text-align: center;
-    width:100%;
-    position:fixed;
-    bottom: 0px;
-    padding-bottom: 20px;
-  }
-  
-  .footerText {
-    font-family: Helvetica;
-    font-size: 10px;
-    color: black;
-  }
+  text-align: center;
+  width:100%;
+  position: static;
+  bottom: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
-  footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.footerText {
+  font-family: Helvetica;
+  font-size: 10px;
+  color: black;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 

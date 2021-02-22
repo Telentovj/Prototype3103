@@ -1,0 +1,57 @@
+/* Jasmine's styling */
+
+h1 {
+    font-family: Helvetica;
+    text-align: center;
+    color: black;
+  }
+  
+  .myTitles {
+    font-size: 60px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+  }
+  
+  
+  body {
+    background-color: 	#eeeeee;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-family: Helvetica;
+  }
+  
+  hr {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 100%;
+    background-color: white;
+  }
+  
+  .subIngredients,
+  .subInstructions {
+    margin-left: 20px;
+  }
+  
+  
+  .footerContainer {
+    text-align: center;
+    width:100%;
+    position: static;
+    bottom: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .footerText {
+    font-family: Helvetica;
+    font-size: 10px;
+    color: black;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -45,9 +45,10 @@ h1 {
   .footerContainer {
     text-align: center;
     width:100%;
-    position:fixed;
+    position: static;
     bottom: 0px;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   
   .footerText {

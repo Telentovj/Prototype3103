@@ -1,0 +1,65 @@
+h1 {
+    font-family: Helvetica;
+    text-align: center;
+    color: black;
+  }
+  
+  .myTitles {
+    font-size: 60px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+  }
+  
+  .sampleImg {
+    width: 49%;
+    margin-top: 30px;
+  }
+  
+  body {
+    background-color: 	#eeeeee;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-family: Helvetica;
+  }
+  
+  hr {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 100%;
+    background-color: white;
+  }
+  
+  .subIngredients,
+  .subInstructions {
+    margin-left: 20px;
+  }
+  
+  #letsGoButton{
+    background: #0088cc;
+    width: 20%;
+    border-radius: 8px;
+    border-radius: 8px;
+    color: 	white;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 14px;
+    border: solid #0088cc 1px;
+    margin-top: 30px;
+  }
+  
+  #letsGoButton:hover{
+    border: solid #979797 1px;
+    background: #979797;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 14px;
+    border-radius: 8px;
+    text-decoration: none;
+  }
+  
+  .navbar-nav > .active > a {
+    background-color: #eeeeee;
+  }
+  

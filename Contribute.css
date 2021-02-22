@@ -1,63 +1,64 @@
+/* Jasmine's styling */
 
-
-
+h1 {
+    font-family: Helvetica;
+    text-align: center;
+    color: black;
+  }
+  
+  .myTitles {
+    font-size: 60px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    text-align: left;
+  }
+  
   body {
     background-color: #eeeeee;
-    padding: 50px;
+    padding: 100px;
     display: flex;
     flex-direction: column;
-    color: white;
     font-family: Helvetica;
-}
-
-.signupInput {
-    padding: 5px;
-    border-radius: 30px;
+  }
+  
+  
+  .contriInput {
+    padding: 10px;
+    border-radius: 10px;
     border-color: #ffffff;
     border-style: solid;
     outline: none;
-    margin: 5px 0px 5px 0px;
+    margin-top: 7px;
+    margin-bottom: 20px;
     width: 40%;
   }
-  
-  
-  .signupButton {
+  #submitContributionButton {
     background: #0088cc;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
+    width: 20%;
+    border-radius: 8px;
     border-radius: 8px;
     color: #ffffff;
     font-family: Helvetica;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 100;
-    margin: 5px 0px 5px 0px;
-    border: solid #666666 1px;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    text-align: center;
-    width: 30%;
-    padding: 10px;
+    padding: 14px;
+    border: solid #0088cc 1px;
+    margin-top: 30px;
   }
-  
-  .signupButton:hover {
-    border: solid #979797 1px;
-    background: #979797;
+
+  #submitContributionButton:hover {
+    border: solid 	#979797 1px;
+    background: 	#979797;
     -webkit-border-radius: 20px;
     -moz-border-radius: 14px;
     border-radius: 8px;
     text-decoration: none;
   }
 
- 
-  .footerContainer {
-    text-align: center;
-    width:100%;
-    position: static;
-    bottom: 0px;
-    padding-top:100px;
+  .navbar-nav > .active > a {
+    background-color: #eeeeee;
   }
-  
+
   .footerContainer {
     text-align: center;
     width:100%;
@@ -78,11 +79,4 @@
     flex-direction: column;
     align-items: center;
 }
-
-
-
-.signupHeader{
-  font-family: Helvetica;
-  color: black;
-  font-size: 32px;
-}
+  

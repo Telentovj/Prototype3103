@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Template</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">FOODER</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./SearchPage.html">Search</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./LandingPage.html">Favourites</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./Contribute.html">Contribute</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./LandingPage.html">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <h1 class="myTitles">Contribute to RecipeMine!</h1>
+    <hr />
+
+    <form>
+      <label for="contributing">Contributing:</label><br />
+      <select class="contriInput" id="contributing" name="contributing">
+        <option value="" selected disabled>Select One</option>
+        <option value="restaurant">A Restaurant Suggestion</option>
+        <option value="recipe">A Recipe</option></select
+      ><br />
+
+      <div id="forRestaurant" display="none">
+        <label for="restName">Restaurant Name:</label><br />
+        <input
+          class="contriInput"
+          type="text"
+          id="restName2"
+          name="restName"
+        /><br />
+
+        <label for="restAddress">Restaurant Address:</label><br />
+        <input
+          class="contriInput"
+          type="text"
+          id="restAddress"
+          name="restAddress"
+        /><br />
+
+        <label for="openingHours">Opening hours:</label><br />
+        <input
+          class="contriInput"
+          type="text"
+          id="openingHours"
+          name="openingHours"
+        /><br />
+      </div>
+
+      <div id="forRecipe" display="none">
+        <label for="ingredients">Ingredients:</label><br />
+        <textarea
+          class="contriInput"
+          type="text"
+          id="ingre"
+          name="fullName"
+        ></textarea
+        ><br />
+
+        <label for="instructins">Instructions:</label><br />
+        <textarea
+          class="contriInput"
+          type="text"
+          id="ingre"
+          name="fullName"
+        ></textarea
+        ><br />
+      </div>
+      <button id="submitContributionButton">Submit!</button>
+    </form>
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>

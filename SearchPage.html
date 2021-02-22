@@ -1,12 +1,60 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body class="searchBody">
-        <p class="searchHeader">RecipeMine</p>
-        <input type="text" class="searchInput" placeholder="Search for Restaurants or Recipes!">
-        <div class="button-centraliser">
-            <button class="myButton">Search</button>
-        </div>
-    </body>
+  <head>
+    <title>Template</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand">FOODER</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="./SearchPage.html">Search</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Favourites</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Contribute.html">Contribute</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./LandingPage.html">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <p class="searchHeader">RecipeMine</p>
+    <input
+      type="text"
+      class="searchInput"
+      placeholder="Search for Restaurants or Recipes!"
+    />
+    <div class="button-centraliser">
+      <button
+        class="myButton"
+        onclick="location.href='./IngredientsSample.html'"
+      >
+        Search
+      </button>
+    </div>
+  </body>
 </html>

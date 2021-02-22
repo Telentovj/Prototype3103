@@ -1,85 +1,198 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <div>
-            <div class="myQuestions starter">
-                <h1>Do you prefer cooking or eating out?</h1>
-                <div class="button-centraliser">
-                    <button class = "myButton" name ="question1" id="Cooking" onclick="makeSelection('Cooking',0)">Cooking</button>
-                    <br>
-                    <button class = "myButton" name ="question1" id="Eating out" onclick="makeSelection('Eating out',0)">Eating out</button>
-                </div>
-            </div>
-            <div class="myQuestions">
-                <h1>What is your budget?</h1>
-                <div class="button-centraliser">
-                    <button class = "myButton" name = 'question2' onclick="makeSelection('$$$',1)" id = '$$$'>$$$</button>
-                    <br>
-                    <button class = "myButton" name = 'question2' onclick="makeSelection('$$',1)" id = '$$'>$$</button>
-                    <br>
-                    <button class = "myButton" name = 'question2' onclick="makeSelection('$',1)" id = '$'>$</button>
-                </div>
-            </div>
-            <div class="myQuestions">
-                <h1>What is your favourite cuisine?</h1>
-                <div class="button-centraliser">
-                    <button class = "myButton" name = 'question3' onclick="makeSelection('Chinese Food',2)" id = 'Chinese Food'>Chinese Food</button>
-                    <br>
-                    <button class = "myButton" name = 'question3' onclick="makeSelection('Indian Food', 2)" id = 'Indian Food'>Indian Food</button>
-                    <br>
-                    <button class = "myButton" name = 'question3' onclick="makeSelection('Western Food', 2)" id = 'Western Food'>Western Food</button>
-                    <br>
-                    <button class = "myButton" name = 'question3' onclick="makeSelection('Thai Food', 2)" id = 'Thai Food'>Thai Food</button>
-                    <br>
-                    <button class = "myButton" name = 'question3' onclick="makeSelection('Viet Food', 2)" id = 'Viet Food'>Viet Food</button>
-                </div>
-            </div>
-            <div class="myQuestions">
-                <h1>What is your cooking experience?</h1>
-                <div class="button-centraliser">
-                    <button class = "myButton" name = 'question4' onclick="makeSelection('Expert', 3)" id = 'Expert'>Expert</button>
-                    <br>
-                    <button class = "myButton" name = 'question4' onclick="makeSelection('Intermediate', 3)" id = 'Intermediate'>Intermediate</button>
-                    <br>
-                    <button class = "myButton" name = 'question4' onclick="makeSelection('Beginner', 3)" id = 'Beginner'>Beginner</button>
-                </div>
-            </div>
-            <div class="myQuestions">
-                <h1>However far are you willing to travel?</h1>
-                <div class="button-centraliser">
-                    <button class = "myButton" name = 'question5' onclick="makeSelection('2km', 4)" id = '2km'>2km</button>
-                    <br>
-                    <button class = "myButton" name = 'question5' onclick="makeSelection('5km', 4)" id = '5km'>5km</button>
-                    <br>
-                    <button class = "myButton" name = 'question5' onclick="makeSelection('10km', 4)" id = '10km'>10km</button>
-                </div>
-            </div>
-            <div class="myQuestions">
-                <h1>Complete the questionaire by clicking the submit button!</h1>
-                <div class="button-centraliser">
-                    <button class = "myButton" onclick = "submitQuestionaire()">Submit</button>
-                </div>
-            </div>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>
+      <div class="myQuestions starter">
+        <h1>Do you prefer cooking or eating out?</h1>
+        <div class="button-centraliser">
+          <button
+            class="myButton"
+            name="question1"
+            id="Cooking"
+            onclick="makeSelection('Cooking',0)"
+          >
+            Cooking
+          </button>
+          <br />
+          <button
+            class="myButton"
+            name="question1"
+            id="Eating out"
+            onclick="makeSelection('Eating out',0)"
+          >
+            Eating out
+          </button>
         </div>
-        <div class="dot-container">
-            <span class="dot active" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span>
-            <span class="dot" onclick="currentSlide(5)"></span>
-            <span class="dot" onclick="currentSlide(6)"></span>
-            <a class="prev" id="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" id="next" onclick="plusSlides(1)">&#10095;</a>
-
+      </div>
+      <div class="myQuestions">
+        <h1>What is your budget?</h1>
+        <div class="button-centraliser">
+          <button
+            class="myButton"
+            name="question2"
+            onclick="makeSelection('$$$',1)"
+            id="$$$"
+          >
+            $$$
+          </button>
+          <br />
+          <button
+            class="myButton"
+            name="question2"
+            onclick="makeSelection('$$',1)"
+            id="$$"
+          >
+            $$
+          </button>
+          <br />
+          <button
+            class="myButton"
+            name="question2"
+            onclick="makeSelection('$',1)"
+            id="$"
+          >
+            $
+          </button>
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-        <script src="preferencing.js"></script>
-    </body>
-    <footer>
-        <div class="footerContainer">
-            <p class = "footerText">Design by JKJR</p>
+      </div>
+      <div class="myQuestions">
+        <h1>What is your favourite cuisine?</h1>
+        <div class="button-centraliser">
+          <button
+            class="myButton"
+            name="question3"
+            onclick="makeSelection('Chinese Food',2)"
+            id="Chinese Food"
+          >
+            Chinese Food
+          </button>
+          <br />
+          <button
+            class="myButton"
+            name="question3"
+            onclick="makeSelection('Indian Food', 2)"
+            id="Indian Food"
+          >
+            Indian Food
+          </button>
+          <br />
+          <button
+            class="myButton"
+            name="question3"
+            onclick="makeSelection('Western Food', 2)"
+            id="Western Food"
+          >
+            Western Food
+          </button>
+          <br />
+          <button
+            class="myButton"
+            name="question3"
+            onclick="makeSelection('Thai Food', 2)"
+            id="Thai Food"
+          >
+            Thai Food
+          </button>
+          <br />
+          <button
+            class="myButton"
+            name="question3"
+            onclick="makeSelection('Viet Food', 2)"
+            id="Viet Food"
+          >
+            Viet Food
+          </button>
         </div>
-    </footer>
+      </div>
+      <div class="myQuestions">
+        <h1>What is your cooking experience?</h1>
+        <div class="button-centraliser">
+          <button
+            class="myButton"
+            name="question4"
+            onclick="makeSelection('Expert', 3)"
+            id="Expert"
+          >
+            Expert
+          </button>
+          <br />
+          <button
+            class="myButton"
+            name="question4"
+            onclick="makeSelection('Intermediate', 3)"
+            id="Intermediate"
+          >
+            Intermediate
+          </button>
+          <br />
+          <button
+            class="myButton"
+            name="question4"
+            onclick="makeSelection('Beginner', 3)"
+            id="Beginner"
+          >
+            Beginner
+          </button>
+        </div>
+      </div>
+      <div class="myQuestions">
+        <h1>However far are you willing to travel?</h1>
+        <div class="button-centraliser">
+          <button
+            class="myButton"
+            name="question5"
+            onclick="makeSelection('2km', 4)"
+            id="2km"
+          >
+            2km
+          </button>
+          <br />
+          <button
+            class="myButton"
+            name="question5"
+            onclick="makeSelection('5km', 4)"
+            id="5km"
+          >
+            5km
+          </button>
+          <br />
+          <button
+            class="myButton"
+            name="question5"
+            onclick="makeSelection('10km', 4)"
+            id="10km"
+          >
+            10km
+          </button>
+        </div>
+      </div>
+      <div class="myQuestions">
+        <h1>Complete the questionaire by clicking the submit button!</h1>
+        <div class="button-centraliser">
+          <button class="myButton" onclick="submitQuestionaire()">
+            Submit
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="dot-container">
+      <span class="dot active" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+      <a class="prev" id="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" id="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="preferencing.js"></script>
+  </body>
+  <footer>
+    <div class="footerContainer">
+      <p class="footerText">Design by JKJR</p>
+    </div>
+  </footer>
 </html>

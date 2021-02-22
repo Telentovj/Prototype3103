@@ -149,7 +149,8 @@ function submitQuestionaire(){
   if(!checker){
     alert('Please answer all required questions!')
   }else{
-    preferenceCalculator();
+    //preferenceCalculator();
+    location.href='./SearchPage.html';
   }
 }
 

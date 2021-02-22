@@ -8,12 +8,12 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="SearchPage.css" />
+    <link rel="stylesheet" href="FavPage.css" />
   </head>
 
   <body>
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand">Fooder</a>
+      <a class="navbar-brand">FOODER</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -27,10 +27,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="./SearchPage.html">Search</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="./FavPage.html">Favourites</a>
           </li>
           <li class="nav-item">
@@ -42,17 +42,25 @@
         </ul>
       </div>
     </nav>
-    <p class="searchHeader">Fooder</p>
-    <input
-      type="text"
-      class="searchInput"
-      placeholder="Search for Restaurants or Recipes!"
-    />
-    <div class="button-centraliser">
-      <button class="myButton" onclick="location.href='./SearchResults.html'">
-        Search
-      </button>
-    </div>
+
+    <p class="resultsHeader">Restaurants</p>
+    <ul class="resultsList">
+      <li class="resultsItem" onclick="location.href='./RestaurantSample.html'">
+        Fong Seng Nasi Lemak
+      </li>
+    </ul>
+
+    <br />
+
+    <p class="resultsHeader">Recipes</p>
+    <ul class="resultsList">
+      <li
+        class="resultsItem"
+        onclick="location.href='./IngredientsSampleFAV.html'"
+      >
+        Traditional Nasi Lemak
+      </li>
+    </ul>
   </body>
   <footer>
     <div class="footerContainer">

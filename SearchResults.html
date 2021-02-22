@@ -8,12 +8,12 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="SearchPage.css" />
+    <link rel="stylesheet" href="SearchResults.css" />
   </head>
 
   <body>
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand">Fooder</a>
+      <a class="navbar-brand">FOODER</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -42,20 +42,31 @@
         </ul>
       </div>
     </nav>
-    <p class="searchHeader">Fooder</p>
-    <input
-      type="text"
-      class="searchInput"
-      placeholder="Search for Restaurants or Recipes!"
-    />
-    <div class="button-centraliser">
-      <button
-        class="myButton"
-        onclick="location.href='./SearchResults.html'"
+
+    <p class="resultsHeader">Restaurants</p>
+    <ul class="resultsList">
+      <li class="resultsItem" onclick="location.href='./RestaurantSample.html'">
+        Fong Seng Nasi Lemak
+      </li>
+      <li class="resultsItem">Punggol Nasi Lemak</li>
+      <li class="resultsItem">Boon Lay Power Nasi Lemak</li>
+      <li class="resultsItem">Chong Pang Nasi Lemak</li>
+    </ul>
+
+    <br />
+
+    <p class="resultsHeader">Recipes</p>
+    <ul class="resultsList">
+      <li
+        class="resultsItem"
+        onclick="location.href='./IngredientsSample.html'"
       >
-        Search
-      </button>
-    </div>
+        Traditional Nasi Lemak
+      </li>
+      <li class="resultsItem">Easy Nasi Lemak</li>
+      <li class="resultsItem">Classic Nasi Lemak</li>
+      <li class="resultsItem">Malaysian Nasi Lemak</li>
+    </ul>
   </body>
   <footer>
     <div class="footerContainer">

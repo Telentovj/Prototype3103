@@ -24,6 +24,7 @@ body {
   flex-direction: column;
   color: white;
   font-family: Helvetica;
+  align-items: center;
 }
 
 hr {
@@ -104,51 +105,7 @@ input {
   font-family: Helvetica;
   padding: 20px;
 }
-/* signup */
-.signupInput {
-  padding: 5px;
-  border-radius: 30px;
-  border-color: #ffffff;
-  border-style: solid;
-  outline: none;
-  margin: 5px 0px 5px 60px;
-  width: 40%;
-}
 
-.signupHeader {
-  text-align: left;
-  color: white;
-  font-size: 32px;
-  font-family: Helvetica;
-}
-
-.signupButton {
-  background: #c38d9e;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 8px;
-  color: #ffffff;
-  font-family: Helvetica;
-  font-size: 14px;
-  font-weight: 100;
-  margin: 5px 0px 5px 60px;
-  border: solid #c38d9e 1px;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-  text-align: center;
-  width: 30%;
-  padding: 10px;
-}
-
-.signupButton:hover {
-  border: solid #e8a87c 1px;
-  background: #e8a87c;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 14px;
-  border-radius: 8px;
-  text-decoration: none;
-}
 /* landing page */
 .background-layer {
   display: flex;
@@ -191,7 +148,7 @@ input {
 }
 
 .myButton {
-  background: #c38d9e;
+  background: #0088cc;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 8px;
@@ -200,7 +157,7 @@ input {
   font-size: 14px;
   font-weight: 100;
   padding: 14px;
-  border: solid #c38d9e 1px;
+  border: solid #666666 1px;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
@@ -208,16 +165,15 @@ input {
   margin: 20px 10px 20px 10px;
   width: 50%;
 }
-/*
+
 .myButton:hover {
-  border: solid #e8a87c 1px;
-  background: #e8a87c;
+  border: solid #979797 1px;
+  background: #979797;
   -webkit-border-radius: 20px;
   -moz-border-radius: 14px;
   border-radius: 8px;
   text-decoration: none;
 }
-*/
 
 .button-centraliser {
   display: flex;
@@ -234,73 +190,9 @@ input {
 .footerText {
   font-family: Helvetica;
   font-size: 10px;
-  color: white;
+  color: black;
 }
 
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #9bc7d4;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active,
-.dot:hover {
-  background-color: #e8a87c;
-}
-
-.dot-container {
-  text-align: center;
-  padding: 30px 20px 20px 20px;
-  height: 10%;
-}
-
-.myQuestions {
-  display: none;
-  text-align: center;
-  height: 90%;
-}
-.questionContainer {
-  display: block;
-}
-.prev,
-.next {
-  cursor: pointer;
-  position: fixed;
-  top: 50%;
-  width: auto;
-  margin-top: -30px;
-  padding: 16px;
-  color: #888;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-.next {
-  position: fixed;
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-.prev {
-  position: fixed;
-  left: 0;
-  display: none;
-}
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
-}
-
-.starter {
-  display: block;
-}
 /* search page */
 .searchInput {
   padding: 15px;
@@ -317,51 +209,7 @@ input {
   font-family: Helvetica;
   padding: 20px;
 }
-/* signup */
-.signupInput {
-  padding: 5px;
-  border-radius: 30px;
-  border-color: #ffffff;
-  border-style: solid;
-  outline: none;
-  margin: 5px 0px 5px 60px;
-  width: 40%;
-}
 
-.signupHeader {
-  text-align: left;
-  color: white;
-  font-size: 32px;
-  font-family: Helvetica;
-}
-
-.signupButton {
-  background: #c38d9e;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 8px;
-  color: #ffffff;
-  font-family: Helvetica;
-  font-size: 14px;
-  font-weight: 100;
-  margin: 5px 0px 5px 60px;
-  border: solid #c38d9e 1px;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-  text-align: center;
-  width: 30%;
-  padding: 10px;
-}
-
-.signupButton:hover {
-  border: solid #e8a87c 1px;
-  background: #e8a87c;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 14px;
-  border-radius: 8px;
-  text-decoration: none;
-}
 /* landing page */
 .background-layer {
   display: flex;

@@ -59,9 +59,9 @@ function makeSelection(optionChosen, qnNumber){
   responses[qnNumber] = optionChosen;
   optionsOfQuestion = document.getElementsByName(document.getElementById(optionChosen).name);
   for(i= 0; i < optionsOfQuestion.length;i++){
-    optionsOfQuestion[i].style.background = "#C38D9E";
+    optionsOfQuestion[i].style.background = "#0088cc";
   }
-  document.getElementById(optionChosen).style.background = "#e8a87c";
+  document.getElementById(optionChosen).style.background = "#979797";
 }
 
 function preferenceCalculator(){
